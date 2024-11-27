@@ -1,0 +1,8 @@
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="application.JoinEventController">
+    <TextField fx:id="searchField" promptText="Search events..." layoutX="20" layoutY="20" />
+    <Button text="Search" layoutX="200" layoutY="20" onAction="#handleSearch" />
+    <ListView fx:id="eventListView" layoutX="20" layoutY="60" prefHeight="200" prefWidth="300" />
+    <Button text="View Sub-Events" layoutX="340" layoutY="60" onAction="#handleViewSubEvents" />
+    <ListView fx:id="subEventListView" layoutX="20" layoutY="280" prefHeight="200" prefWidth="300" />
+    <Button text="Join Sub-Event" layoutX="340" layoutY="280" onAction="#handleJoinSubEvent" />
+</AnchorPane>

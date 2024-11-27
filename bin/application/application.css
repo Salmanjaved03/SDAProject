@@ -1,0 +1,46 @@
+/* Set a background color or image for the root pane */
+.root {
+	
+     -fx-background-color: linear-gradient(to bottom, #1e3c72, #2a5298);
+    
+    
+    /* Alternatively, use an image background */
+    /* -fx-background-image: url("path/to/background-image.jpg"); */
+    -fx-background-size: cover;
+}
+
+/* Style for the username and password fields */
+.text-field, .password-field {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: lightgray;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8px;
+}
+
+/* Style for the buttons */
+.button {
+    -fx-background-color: #ff6f61;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ff8a73;
+}
+
+#registerButton, #forgotPasswordButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff6f61;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+#registerButton:hover, #forgotPasswordButton:hover {
+    -fx-text-fill: #ff8a73;
+}

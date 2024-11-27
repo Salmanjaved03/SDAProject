@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="application.SubEventsViewController">
+    
+    
+    <ListView fx:id="subEventsListView" layoutX="50" layoutY="30" prefHeight="200" prefWidth="300" />
+    
+    
+    <Button fx:id="addSubEventButton" layoutX="50" layoutY="240" onAction="#handleAddSubEvent" text="Add Sub-Event" />
+    
+    
+    <Button fx:id="deleteSubEventButton" layoutX="200" layoutY="240" onAction="#handleDeleteSubEvent" text="Delete Sub-Event" />
+    
+</AnchorPane>

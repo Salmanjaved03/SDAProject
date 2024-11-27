@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateEventController">
+   <children>
+      <TextField fx:id="eventNameField" layoutX="226.0" layoutY="80.0" promptText="name" />
+      <TextField fx:id="descriptionField" layoutX="226.0" layoutY="131.0" promptText="description" />
+      <TextField fx:id="maxParticipantsField" layoutX="226.0" layoutY="217.0" promptText="max participants" />
+      <DatePicker fx:id="eventDateField" layoutX="214.0" layoutY="175.0" promptText="date" />
+      <Button fx:id="cancelButton" layoutX="162.0" layoutY="312.0" mnemonicParsing="false" onAction="#handleCancelButtonAction" text="cancel" />
+      <Button fx:id="submitButton" layoutX="407.0" layoutY="312.0" mnemonicParsing="false" onAction="#submitButtonAction" text="create" />
+   </children>
+</AnchorPane>

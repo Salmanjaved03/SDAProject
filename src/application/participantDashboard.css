@@ -1,0 +1,67 @@
+/* General background and font settings */
+AnchorPane {
+    -fx-background-color: #2c3e50; /* Dark blue background */
+    
+}
+
+/* Style for Labels */
+Label {
+    -fx-text-fill: #ecf0f1; /* Light gray text color */
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Greeting Label specific style */
+#greetingLabel {
+    -fx-font-size: 28px;
+    -fx-text-fill: #f39c12; /* Orange color for welcome text */
+    -fx-effect: dropshadow( one-pass-box , black , 5 , 0.0 , 2 , 2 );
+    -fx-padding: 10px;
+}
+
+/* Quote Label specific style */
+#quoteLabel {
+    -fx-font-size: 16px;
+    -fx-font-style: italic;
+    -fx-text-fill: #95a5a6; /* Light gray with a hint of blue */
+    -fx-effect: dropshadow( gaussian , black , 2 , 0.0 , 1 , 1 );
+    -fx-padding: 10px;
+}
+
+/* Button styling */
+Button {
+    -fx-background-color: #34495e; /* Darker blue shade for buttons */
+    -fx-text-fill: #ecf0f1; /* Light gray text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #1abc9c; /* Aqua border color */
+    -fx-border-width: 2px;
+    -fx-padding: 8px 15px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( one-pass-box , black , 5 , 0.0 , 2 , 2 );
+    
+}
+
+/* Button hover effect */
+Button:hover {
+    -fx-background-color: #1abc9c; /* Change to aqua on hover */
+    -fx-text-fill: #2c3e50; /* Change text to dark blue */
+}
+
+/* Button specific styles */
+#createTeamButton, #joinEventButton, #notificationsButton, #rateEventButton, #feedbackButton {
+    -fx-background-color: #2980b9; /* Blue color for specific buttons */
+}
+
+/* Logout button specific style */
+#logoutButton {
+    -fx-background-color: #e74c3c; /* Red color for Logout button */
+    -fx-text-fill: white;
+    -fx-border-color: #c0392b; /* Darker red for border */
+}
+
+#logoutButton:hover {
+    -fx-background-color: #c0392b; /* Darker red on hover */
+}

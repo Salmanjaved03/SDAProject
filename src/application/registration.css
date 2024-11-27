@@ -1,0 +1,60 @@
+
+
+/* General Background */
+.root {
+    -fx-background-color: #ecf0f1; /* Light gray background */
+}
+
+/* Styling for TextFields and PasswordFields */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 35px;
+    -fx-background-color: #ffffff; /* White background for input fields */
+    -fx-border-color: #bdc3c7; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-padding: 0 10px; /* Padding inside input fields */
+}
+
+/* Focused input fields */
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db; /* Blue border on focus */
+}
+
+/* Styling for Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #3498db; /* Blue button */
+    -fx-text-fill: white; /* White text */
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10 20; /* Vertical and horizontal padding */
+    -fx-cursor: hand;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Specific button styling for the back button */
+#backButton {
+    -fx-background-color: #e74c3c; /* Red background for back button */
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Positioning and styling for the form fields */
+#usernameField, #emailField, #passwordField, #confirmPasswordField {
+    -fx-font-size: 14px;
+}
+
+/* Positioning for the registration and back buttons */
+#registerButton {
+    -fx-font-size: 14px;
+}
+
+

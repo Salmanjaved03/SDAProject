@@ -1,0 +1,52 @@
+/* General AnchorPane Styling */
+.root {
+    -fx-background-color: #f0f4f8; /* Light grey background */
+    -fx-padding: 20px;
+}
+
+/* Label Styling */
+.label {
+    -fx-font-size: 24px;        /* Larger font for the title */
+    -fx-font-weight: bold;      /* Bold text */
+    -fx-text-fill: #34495e;     /* Dark blue-grey color */
+    -fx-alignment: center;      /* Center align text */
+}
+
+/* ListView Styling */
+#venueListView {
+    -fx-background-color: #ffffff; /* White background for ListView */
+    -fx-border-color: #bdc3c7;     /* Light grey border */
+    -fx-border-radius: 5px;        /* Rounded corners */
+    -fx-padding: 5px;
+    -fx-font-size: 14px;           /* Font size for list items */
+    -fx-control-inner-background: #ecf0f1; /* Lighter background inside */
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #3498db; /* Blue background for buttons */
+    -fx-text-fill: white;           /* White text */
+    -fx-font-size: 16px;            /* Slightly larger font for buttons */
+    -fx-font-weight: bold;          /* Bold button text */
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;         /* Rounded corners */
+    -fx-cursor: hand;               /* Pointer cursor on hover */
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;  /* Darker blue when hovered */
+}
+
+.button:pressed {
+    -fx-background-color: #1e6a8d;  /* Even darker blue when pressed */
+}
+
+/* Focus and Selection Styling for ListView */
+#venueListView .list-cell:focused {
+    -fx-border-color: #3498db;      /* Blue border when focused */
+}
+
+#venueListView .list-cell:selected {
+    -fx-background-color: #3498db;  /* Blue background for selected item */
+    -fx-text-fill: white;            /* White text for selected item */
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ParticipantDashboardController">
+   <children>
+      <Button fx:id="joinEventButton" layoutX="128.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleJoinEvent" text="Join Event" />
+      <Button fx:id="logoutButton" layoutX="377.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      <Label fx:id="greetingLabel" layoutX="200.0" layoutY="51.0" text="WELCOME TO SPORTSYNC" />
+      <Label fx:id="quoteLabel" layoutX="141.0" layoutY="83.0" text="Label" />
+      <Button fx:id="myTeams" layoutX="344.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleMyTeams" text="My Teams" />
+      <Button fx:id="notificationsButton" layoutX="127.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleNotifications" text="Notifications" />
+      <Button fx:id="rateEventButton" layoutX="341.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleRateEvent" text="Rate An Event" />
+   </children>
+</AnchorPane>
